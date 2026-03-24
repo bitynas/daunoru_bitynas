@@ -363,7 +363,7 @@ html {
     
 } 
 .carousel-item img{
-  height: 100vh;
+  height: 100svh;
   min-height: 420px;
   object-fit: cover;
 }

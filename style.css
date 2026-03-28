@@ -390,7 +390,6 @@ html {
 .carousel-item img{
     width: 100%;
     height: 78vh;
-    height: 78svh;
     min-height: 420px;
     max-height: 820px;
     object-fit: cover;
@@ -1010,6 +1009,21 @@ footer{
     }
 }
 
+@media (max-width: 768px) {
+    main > section {
+        padding: 72px 20px;
+    }
+
+    .why {
+        padding-top: 84px;
+        padding-bottom: 72px;
+    }
+
+    .section_title {
+        margin-bottom: 24px;
+    }
+}
+
 @media (max-width: 720px) {
     .why_list {
         grid-template-columns: 1fr;
@@ -1063,11 +1077,16 @@ footer{
 @media (max-width: 576px) {
     .header_text {
         width: 92%;
+		 padding: 20px 16px 24px;
     }
     .carousel-item img {
-        height: 60vh;
-        min-height: 280px;
+        height: 62vh;
+        min-height: 340px;
     }
+	header .hero_btn {
+        margin-top: 4px;
+    }
+}
     .round {
         width: 120px;
         height: 120px;

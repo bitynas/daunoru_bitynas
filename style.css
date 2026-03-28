@@ -497,15 +497,18 @@ main section{
   margin-bottom: 30px;
 }
 .products_wrap{
-  display: flex;        
-  gap: 22px;            
+  display: flex;               
   justify-content: center; 
   flex-wrap: wrap; 
+  margin:-11px;
   padding-top: clamp(8px, 2vw, 24px);
   padding-bottom: 30px;
    
 }
 .category{
+  width: calc(50% - 22px);
+  max-width: 220px;
+  margin: 11px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -568,7 +571,8 @@ main section{
 .why_list{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px 40px;
+  column-gap: 40px;
+  row-gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -983,10 +987,12 @@ footer{
 
     .about {
         grid-template-columns: 1fr;
+		row-gap: 24px;
     }
 
     .foto {
         min-height: 250px;
+		margin-bottom: 0;
     }
 }
 
@@ -1007,6 +1013,10 @@ footer{
 @media (max-width: 720px) {
     .why_list {
         grid-template-columns: 1fr;
+		row-gap: 18px;
+    }
+	.why_item {
+        margin: 0;
     }
 }
 

@@ -987,11 +987,12 @@ footer{
     .about {
         grid-template-columns: 1fr;
 		row-gap: 24px;
+		 margin-bottom: 20px;
     }
 
     .foto {
         min-height: 250px;
-		margin-bottom: 0;
+		margin-bottom: 20px;
     }
 }
 

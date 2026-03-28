@@ -954,10 +954,13 @@ footer{
 }
 
 @media (max-width: 768px) {
+	.header{
+		padding:28px 16px;
+	}
     .header_text {
         width: 88%;
         max-width: 360px;
-        padding: 22px 18px;
+        padding: 24px 18px 28px;
     }
 
     h1 {
@@ -969,7 +972,7 @@ footer{
     .header_text p {
         font-size: 1rem;
         line-height: 1.45;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 
     .header .hero_btn {

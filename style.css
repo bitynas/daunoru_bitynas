@@ -1030,8 +1030,11 @@ footer{
 		row-gap: 18px;
     }
 	.why_item {
-        margin: 0;
+        margin-bottom: 16px;
     }
+	.why_item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 620px) {

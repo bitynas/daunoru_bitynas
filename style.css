@@ -379,7 +379,7 @@ html {
 .mobile_nav.menu_open .mobile_menu_btn span:nth-child(3){
     transform: translateY(0) rotate(-45deg);
 }
-/*baigiasi mobili navigacija*/
+
 
 .carousel{
     position: relative;
@@ -513,7 +513,7 @@ main section{
   align-items: center;
   gap: 10px;
   text-decoration: none;  
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .round{
@@ -585,6 +585,7 @@ main section{
   align-items: start;
   text-align: left;
   background: rgba(255,255,255,0.55);
+  box-shadow: 0 8px 18px rgba(49,64,34,0.08);
   padding: 18px;
   border-radius: 14px;
   min-width: 0;

@@ -924,7 +924,7 @@ footer{
   height: 28px;
     display: block;
 }
-/*mobili navigacija*/
+
 @media (max-width: 900px){
     .desktop_nav{
         display: none;
@@ -939,11 +939,6 @@ footer{
         z-index: 1000;
     }
 }
-
-
-/*baigiasi mobili navigacija*/
-
-
 
 @media (max-width: 900px) {
     .reviews_wrap {
@@ -960,7 +955,7 @@ footer{
 
 @media (max-width: 768px) {
 	.header{
-		padding:28px 16px;
+		padding:60px 16px 60px;
 	}
     .header_text {
         width: 88%;

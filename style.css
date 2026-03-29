@@ -702,7 +702,8 @@ main section{
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 20px;
 }
 
 .review_card{
@@ -714,6 +715,7 @@ main section{
   flex-direction: column;
   justify-content: space-between;
   transition: transform .25s ease, box-shadow .25s ease;
+	margin-bottom: 18px;
 }
 
 .review_card:hover{

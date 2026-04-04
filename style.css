@@ -1197,7 +1197,7 @@ main section{
     background-color: #FFFBEB;
     background-image:
         linear-gradient(to top, rgba(255,251,235,0) 0%, rgba(255,251,235,1) 100%),
-        url("/img/koriai.png");
+        url("img/koriai.png");
     background-repeat: no-repeat, repeat-x;
     background-position: center, center bottom;
     background-size: cover;

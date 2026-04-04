@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lašas centre virš korių -->
+  <path d="M32 6C32 6 26 14 26 18C26 21.3137 28.6863 24 32 24C35.3137 24 38 21.3137 38 18C38 14 32 6 32 6Z"
+    fill="#FFF7BF" stroke="#385C73" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Koriai -->
+  <polygon points="16,32 24,28 32,32 32,40 24,44 16,40"
+    fill="#F2E63D" stroke="#385C73" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <polygon points="32,32 40,28 48,32 48,40 40,44 32,40"
+    fill="#F2E63D" stroke="#385C73" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <polygon points="24,44 32,40 40,44 40,52 32,56 24,52"
+    fill="#F2E63D" stroke="#385C73" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- subtilūs ornamentiniai akcentai kaip rinkinio ikonose -->
+  <path d="M24 31.5L29 34.3" stroke="#385C73" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M40 31.5L45 34.3" stroke="#385C73" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M32 45.2L32 50.2" stroke="#385C73" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

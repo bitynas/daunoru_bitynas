@@ -1,3 +1,13 @@
+document.addEventListener('touchstart', function () {
+  const el = document.querySelector('#carouselExampleCaptions');
+  if (el) {
+    const carousel = bootstrap.Carousel.getInstance(el);
+    if (carousel) carousel.cycle();
+  }
+}, { once: true });
+
+
+
 
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -407,6 +407,11 @@ html {
     -webkit-overflow-scrolling: touch;
 	
 }
+.mobile_nav{
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+}
 .mobile_nav.menu_open .mobile_menu_panel{
     display: block;
 }

@@ -93,7 +93,6 @@ html {
     z-index: 1000;
     background-color: #ffffff;
     background-color: var(--nav-bg);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 .logo_link{
     display: inline-flex;

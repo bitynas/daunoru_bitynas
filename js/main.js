@@ -1,12 +1,18 @@
-document.addEventListener('touchstart', function () {
+document.addEventListener('DOMContentLoaded', function () {
   const el = document.querySelector('#carouselExampleCaptions');
+
   if (el) {
-    const carousel = bootstrap.Carousel.getInstance(el);
-    if (carousel) carousel.cycle();
+    const carousel = new bootstrap.Carousel(el, {
+      interval: 8000,
+      ride: 'carousel',
+      pause: false,
+      touch: true
+    });
+
+    // priverstinis startas (labai svarbu mobile)
+    carousel.cycle();
   }
-}, { once: true });
-
-
+});
 
 
 

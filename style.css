@@ -433,6 +433,7 @@ html {
     display: flex;
     align-items: center;
     gap: 14px;
+	margin-right: 14px;
 }
 .mobile_item img{
     width: 22px;

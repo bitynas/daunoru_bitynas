@@ -490,6 +490,8 @@ html {
 .mobile_menu_social{
     display: flex;
     justify-content: center;
+	gap: 12px;
+    padding-top: 14px;
 }
 
 .mobile_menu_social a{

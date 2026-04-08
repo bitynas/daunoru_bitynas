@@ -1,19 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const el = document.querySelector('#carouselExampleCaptions');
-
-  if (el) {
-    const carousel = new bootstrap.Carousel(el, {
-      interval: 8000,
-      ride: 'carousel',
-      pause: false,
-      touch: true
-    });
-
-    // priverstinis startas (labai svarbu mobile)
-    carousel.cycle();
-  }
-});
-
 
 
 document.addEventListener("DOMContentLoaded", () => {

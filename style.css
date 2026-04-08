@@ -433,13 +433,13 @@ html {
     display: flex;
     align-items: center;
     gap: 14px;
-	margin-right: 14px;
 }
 .mobile_item img{
     width: 22px;
     height: 22px;
     flex-shrink: 0;
     opacity: 0.9;
+	margin-right: 14px;
 }
 .mobile_menu_list > li > a:hover,
 .mobile_submenu_toggle:hover{

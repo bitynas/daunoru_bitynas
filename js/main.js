@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const yearEl = document.getElementById("year");
     if (yearEl) {
@@ -73,6 +71,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+            closeMobileMenu();
+            if (mobileNav) mobileNav.classList.remove("search_open");
+            document.querySelectorAll(".search_box.open").forEach(box => box.classList.remove("open"));
+        }
+    });
+
     document.addEventListener("click", (e) => {
         document.querySelectorAll(".search_box.open").forEach(box => {
             if (!box.contains(e.target)) {
@@ -81,5 +87,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-
